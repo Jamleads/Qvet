@@ -1,0 +1,233 @@
+@media only screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+    width: 100vw;
+    /* padding: 40px; */
+    /* display: flex;
+        align-items: center;
+        justify-content: center; */
+  }
+  .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* margin-top: 100px; */
+  }
+  .head button {
+    width: 81px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    gap: 8px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #7474801a;
+  }
+  .head button p {
+    width: 33px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+  }
+  .top {
+    width: 382px;
+    height: 287px;
+    top: 178px;
+    left: 24px;
+    gap: 24px;
+    opacity: 0px;
+  }
+  .top h1 {
+    width: 166px;
+    height: 39px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    color: #000000;
+  }
+  .top .links {
+    width: 382px;
+    height: 224px;
+    gap: 16px;
+    opacity: 0px;
+    padding: 20px;
+  }
+  .top .links div {
+    width: 382px;
+    height: 64px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .top .links div:nth-child(1) img {
+    width: 64px;
+    height: 64px;
+    padding: 10.26px;
+    gap: 0px;
+    border-radius: 60.38px;
+    opacity: 0px;
+    background: #0057ff;
+    border: 1px solid #ffffff;
+  }
+  .top .links div:nth-child(2) img {
+    width: 64px;
+    height: 64px;
+    gap: 0px;
+    border-radius: 60.38px;
+    background-color: inherit;
+    background: linear-gradient(to right, #ff69b4, #c13584);
+    opacity: 0px;
+    border: 1px solid #ffffff;
+  }
+  .top .links div:nth-child(3) img {
+    width: 64px;
+    height: 64px;
+    padding: 16.91px 16.3px 17.51px 16.3px;
+    gap: 0px;
+    border-radius: 60.38px;
+    opacity: 0px;
+    background: #010101;
+    border: 1px solid #ffffff;
+  }
+  .top .links div input {
+    /* width: 310px; */
+    height: 56px;
+    padding: 17px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #f2f2f7;
+  }
+  .top .links div {
+    margin-bottom: 10px;
+  }
+  .middleline {
+    width: 382px;
+    height: 0px;
+    top: 489px;
+    left: 24px;
+    gap: 0px;
+    border: 1px;
+    opacity: 0px;
+    border: 1px solid #78788052;
+    margin-bottom: 20px;
+  }
+  .lower .top {
+    width: 382px;
+    height: 44px;
+    gap: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0px;
+  }
+  .lower .top h1 {
+    width: 67px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #000000;
+  }
+  .lower .top p {
+    width: 50px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    background: linear-gradient(140.66deg, #552dce 14.56%, #896ddf 84.62%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .lower .links div input {
+    /* width: 310px; */
+    height: 56px;
+    padding: 17px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #f2f2f7;
+  }
+  .lower .links div:nth-child(1) img {
+    width: 64px;
+    height: 64px;
+    padding: 16.91px 16.3px 17.51px 16.3px;
+    gap: 0px;
+    border-radius: 60.38px;
+    opacity: 0px;
+    background: #010101;
+    border: 1px solid #ffffff;
+  }
+  .lower .links div:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .lower .links div:nth-child(2) img {
+    width: 64px;
+    height: 64px;
+    padding: 12.68px;
+    gap: 0px;
+    border-radius: 60.38px;
+    opacity: 0px;
+    background: #0065bd;
+    border: 1px solid #ffffff;
+  }
+  .lower .links {
+    width: 382px;
+    height: 224px;
+    gap: 16px;
+    opacity: 0px;
+    padding: 20px;
+  }
+  .lower .links div {
+    width: 382px;
+    height: 64px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .enterlinksContinue {
+    width: 382px;
+    height: 64px;
+    top: 792px;
+    left: 24px;
+    padding: 20px 40px 20px 40px;
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: linear-gradient(140.66deg, #552dce 14.56%, #896ddf 84.62%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .enterlinksContinue p {
+    width: 69px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #ffffff;
+  }
+}

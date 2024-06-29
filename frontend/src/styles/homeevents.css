@@ -1,0 +1,225 @@
+@media only screen and (max-width: 768px) {
+  .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    /* margin-top: 100px; */
+  }
+  .homeeventtop {
+    width: 382px;
+    height: 40px;
+    top: 134px;
+    left: 24px;
+    padding: 0px 16px 0px 16px;
+    gap: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0px;
+    margin-top: 20px;
+  }
+  .homeeventtop h1 {
+    width: 258px;
+    height: 39px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    color: #000000;
+  }
+  .homeeventtopbutton {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    gap: 8px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #f2f2f7;
+  }
+  .homeeventsearch {
+    width: 382px;
+    height: 56px;
+    top: 190px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #f2f2f7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .homeeventsearch img {
+    margin-right: 20px;
+  }
+  .homeeventsearch input {
+    background-color: inherit;
+  }
+  .homeeventbody {
+    width: 382px;
+    height: 356px;
+    top: 270px;
+    left: 24px;
+    gap: 16px;
+    opacity: 0px;
+  }
+  .homeeventbody1 {
+    width: 370px;
+    height: 170px;
+    gap: 0px;
+    border-radius: 24px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    color: #ffffff;
+    border: 1px solid #78788052;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .homeeventbody1inner {
+    width: 366px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .homeeventbody1inner .left {
+    width: 169px;
+    height: 72px;
+    top: 84px;
+    left: 16px;
+    gap: 8px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .homeeventbody1inner .left h1 {
+    width: 91px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #000000;
+  }
+  .homeeventbody1inner .left p {
+    width: 149px;
+    height: 18px;
+    gap: 0px;
+    opacity: 0.8px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #787880;
+  }
+  .homeeventbody1innerbutton {
+    width: 138px;
+    height: 20px;
+    gap: 4px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .homeeventbody1innerbutton button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeeventbody1innerbutton1 {
+    width: 81px;
+    height: 20px;
+    padding: 4px 16px 4px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #eeeafa;
+  }
+  .homeeventbody1innerbutton1 p {
+    width: 49px;
+    height: 12px;
+    gap: 0px;
+    opacity: 0.6px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    text-align: center;
+    color: #000000;
+  }
+  .homeeventbody1innerbutton2 {
+    width: 53px;
+    height: 20px;
+    padding: 4px 16px 4px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #fffbe5;
+  }
+  .homeeventbody1innerbutton2 p {
+    width: 21px;
+    height: 12px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    text-align: center;
+    color: #665500;
+  }
+  .homeeventbody1inner .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .homeeventbody1inner .right p {
+    width: 67px;
+    height: 18px;
+    top: 86px;
+    left: 291px;
+    gap: 0px;
+    opacity: 0.8px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #787880;
+  }
+  .homeeventbody1inner .right button {
+    width: 90px;
+    height: 44px;
+    top: 112px;
+    left: 289px;
+    padding: 10px 24px 10px 24px;
+    gap: 8px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: linear-gradient(140.66deg, #552dce 14.56%, #896ddf 84.62%);
+  }
+  .homeeventbody1inner .right button p {
+    width: 42px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #ffffff;
+  }
+}

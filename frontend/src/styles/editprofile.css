@@ -1,0 +1,138 @@
+@media only screen and (max-width: 768px) {
+  .editprofile button {
+    width: 382px;
+    height: 64px;
+    top: 792px;
+    left: 24px;
+    padding: 20px 40px 20px 40px;
+    gap: 8px;
+    border-radius: 24px;
+    opacity: 0px;
+    background: linear-gradient(140.66deg, #552dce 14.56%, #896ddf 84.62%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .editprofile button p {
+    width: 68px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #ffffff;
+  }
+  .head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* margin-top: 100px; */
+  }
+  .head button {
+    width: 81px;
+    height: 44px;
+    padding: 10px 24px 10px 24px;
+    gap: 8px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: #7474801a;
+  }
+  .head button p {
+    width: 33px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000000;
+  }
+  .editprofile .form {
+    width: 382px;
+    height: 391px;
+    top: 178px;
+    left: 24px;
+    gap: 24px;
+    opacity: 0px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .editprofile .form h1 {
+    width: 291px;
+    height: 39px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.73px;
+    text-align: left;
+    color: #000000;
+  }
+  .editprofile .form .inner {
+    width: 382px;
+    height: 328px;
+    gap: 16px;
+    opacity: 0px;
+  }
+  .editprofile .form .inner .top {
+    width: 382px;
+    height: 100px;
+    gap: 16px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .editprofile .form .inner .top div {
+    width: 80px;
+    height: 80px;
+    gap: 0px;
+    border-radius: 100px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #f2f2f7;
+    border: 1px solid #78788052;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .editprofile .form .inner .top input {
+    width: 266px;
+    height: 56px;
+    padding: 17px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #f2f2f7;
+  }
+  .editprofile .form .inner input {
+    width: 370px;
+    height: 56px;
+    padding: 17px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #f2f2f7;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .editprofile textarea {
+    width: 370px;
+    height: 140px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #f2f2f7;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
