@@ -1,13 +1,14 @@
 import React from "react";
-import "@/styles/access.css";
 import { Link } from "react-router-dom";
 function ConfirmMail() {
   return (
     <>
-      <div className="acces">
-        <div className="mail">
-          <h1>Check your inbox</h1>
-          <p className="mailp">
+      <div className="h-screen w-screen flex flex-col items-center justify-center">
+        <div className="w-[382px] h-[547px]  gap-[24px]  flex flex-col items-center ">
+          <h1 className=" h-[32px] opacity-80 font-switzer text-2xl font-semibold leading-[31.68px] text-left text-[#090909]">
+            Check your inbox
+          </h1>
+          <p className="w-[280px] h-[42px] opacity-80 font-inter text-sm font-normal leading-[21px] text-center text-black">
             Verify your mail via the link sent to example@gmail.com
           </p>
           <img src="/mail.png" alt="mail_img" className="w-[300px] h-[300px]" />
@@ -17,9 +18,9 @@ function ConfirmMail() {
                 <p className=" text-white">Continue</p>
               </Link>
             </button>
-            <p className="createText">
+            <p className="w-[283px] h-[63px] opacity-80 font-inter text-sm font-normal leading-[21px] text-center mt-[20px]">
               Didn’t get a mail?
-              <span>Resend</span>.
+              <span className="text-[#896ddf]">Resend</span>.
             </p>
           </div>
         </div>

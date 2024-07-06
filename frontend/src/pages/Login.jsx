@@ -1,9 +1,11 @@
 import React from "react";
-import "@/styles/access.css";
 import { Link } from "react-router-dom";
+import About from "../components/About";
 function Login() {
   return (
-    <>
+    <div className="flex p-4 items-center">
+      <About />
+
       <div className="acces">
         <div className="container">
           <div className="logo">
@@ -45,7 +47,7 @@ function Login() {
           </span>
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

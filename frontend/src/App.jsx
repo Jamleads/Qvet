@@ -1,4 +1,5 @@
 import React from "react";
+import "@/App.css";
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,6 +16,7 @@ import EnterLinks from "./pages/EnterLinks";
 import EditProfile from "./pages/EditProfile";
 import HomeLink from "./pages/HomeLink";
 import HomeEvents from "./pages/HomeEvents";
+import Qrcode from "./pages/Qrcode";
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
           <Route path="/editprofile" element={<EditProfile />} />
           <Route path="/homelink" element={<HomeLink />} />
           <Route path="/homeevents" element={<HomeEvents />} />
+          <Route path="/qrcode" element={<Qrcode />} />
         </Routes>
       </Router>
     </>

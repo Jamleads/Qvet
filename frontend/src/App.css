@@ -1,0 +1,83 @@
+.email {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 382px;
+  height: 64px;
+  padding: 20px 40px 20px 40px;
+  gap: 8px;
+  border-radius: 24px;
+  opacity: 0px;
+  background: linear-gradient(140.66deg, #552dce 14.56%, #896ddf 84.62%);
+}
+.email p {
+  width: 150px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* text-align: center; */
+  color: #ffffff;
+}
+.phone {
+  width: 382px;
+  height: 64px;
+  padding: 20px 40px 20px 40px;
+  gap: 8px;
+  border-radius: 24px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: 1px solid;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-image-source: linear-gradient(
+      140.66deg,
+      #552dce 14.56%,
+      #896ddf 84.62%
+    )
+    1;
+}
+.phone p {
+  width: 220px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  background: linear-gradient(140.66deg, #552dce 14.56%, #896ddf 84.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.lower .top p {
+  width: 50px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  background: linear-gradient(140.66deg, #552dce 14.56%, #896ddf 84.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.overimg {
+  background-blend-mode: overlay;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
