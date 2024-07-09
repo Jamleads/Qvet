@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import About2 from "../components/About2";
 function Selection() {
   return (
-    <div className="flex p-4 items-center justify-around">
+    <div className="flex  items-center p-6 px-14 justify-between ">
       <div className=" h-[984px] flex flex-col justify-center">
         <div className="w-full flex justify-between p-5 md:hidden ">
           <img src="/Union.png" alt="Qvet_logo" className="w-[40px] h-[40px]" />

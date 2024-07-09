@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import About2 from "../components/About2";
 function EnterLinks() {
   return (
-    <div className="flex p-4 items-center justify-around">
+    <div className="flex  items-center p-6 justify-between ">
       <About2 />
       <div className="md:w-[692px] md:h-[800px] md:p-10 ">
         <div className=" h-[723px]">
@@ -68,9 +68,9 @@ function EnterLinks() {
               </div>
             </div>
           </div>
-          <p className="middleline w-[600px] h-[0px] mt-[20px]  border-[1px]  border-[#78788052] mb-[20px]"></p>
+          <p className="middleline w-[500px] mx-auto h-[0px] mt-[20px]  border-[1px]  border-[#78788052] mb-[20px]"></p>
           <div className="lower md:w-[600px]">
-            <div className="top top w-[382px] md:w-[600px] h-[44px] gap-[0px] flex items-center justify-between ">
+            <div className="top top w-[382px] md:w-[600px] md:px-10 h-[44px] gap-[0px] flex items-center justify-between ">
               <h1 className="w-[67px] h-[24px] gap-[0px]  font-inter font-bold text-base leading-[24.2px] text-left text-[#000000] ml-2">
                 Others
               </h1>

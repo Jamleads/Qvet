@@ -3,9 +3,9 @@ import React from "react";
 function About() {
   return (
     <div className=" hidden md:block w-[1400px] h-[784px] rounded-[30px] relative pt-[40px] ">
-      <div className=" max-w-[130px] h-[40px] ml-[60px] mb-2 flex justify-between z-30 ">
+      <div className=" max-w-[130px] h-[40px] ml-[60px] mb-2 flex justify-between items-center z-30 ">
         <img src="/Union.png" className="w-[40px] h-[40px]" alt="" />
-        <h1 className="w-[74px] h-[39px] font-inter text-[32px] font-bold leading-[38.73px] text-left text-white">
+        <h1 className="w-[80px] h-[39px] font-inter text-[32px] font-bold leading-[38.73px] text-left text-white">
           QVet
         </h1>
       </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import About from "../components/About";
 function SignEmail() {
   return (
-    <div className="flex p-4 items-center">
+    <div className="flex items-center p-6 px-10 justify-between">
       <About />
 
       <div className="h-screen w-screen flex flex-col items-center justify-center">
