@@ -17,6 +17,7 @@ import EditProfile from "./pages/EditProfile";
 import HomeLink from "./pages/HomeLink";
 import HomeEvents from "./pages/HomeEvents";
 import Qrcode from "./pages/Qrcode";
+import RsvpForm from "./pages/RsvpForm";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/homelink" element={<HomeLink />} />
           <Route path="/homeevents" element={<HomeEvents />} />
           <Route path="/qrcode" element={<Qrcode />} />
+          <Route path="/rsvpform" element={<RsvpForm />} />
         </Routes>
       </Router>
     </>

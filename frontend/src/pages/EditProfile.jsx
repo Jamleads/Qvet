@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import About2 from "../components/About2";
 function EditProfile() {
   return (
-    <div className="flex  items-center p-6 justify-between">
+    <div className="md:flex  md:items-center md:p-6 md:justify-between">
       <div className="editprofile md:w-[536px] md:h-[544px] ">
         <div className="head w-full flex justify-between p-5 md:hidden md:p-5">
           <img src="/Union.png" alt="Qvet_logo" className="w-[40px] h-[40px]" />
